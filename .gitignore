@@ -1,0 +1,5 @@
+# Mengabaikan file dataset mentah
+dataset.csv
+*.csv
+!data_dictionary.csv
+!dataset_aman.csv
