@@ -1,0 +1,8 @@
+dimensi,kolom,masalah,jumlah,persen,keparahan,rencana
+Validitas,Inflation rate,Tingkat inflasi makroekonomi ekstrem tidak masuk akal (>50%),0,0.0,Rendah,Saring data historis dari API bank sentral resmi
+Validitas,Age at enrollment,Umur pendaftaran terlalu muda (< 16 tahun),0,0.0,Sedang,Periksa apakah ada kesalahan input tanggal lahir
+Konsistensi,International & Nacionality,Mahasiswa berkebangsaan lokal tercatat sebagai mahasiswa asing,0,0.0,Sedang,Koreksi status kewarganegaraan berdasarkan nomor identitas paspor
+Validitas,Curricular units 1st sem (grade),Nilai IPK semester 1 berada di luar batas standar 0-20,0,0.0,Tinggi,Normalisasi nilai atau lakukan drop jika terdapat data anomali
+Validitas,Curricular units 2nd sem (grade),Nilai IPK semester 2 berada di luar batas standar 0-20,0,0.0,Tinggi,Normalisasi nilai atau lakukan drop jika terdapat data anomali
+Validitas,Curricular units 1st sem (enrolled),Jumlah SKS terdaftar bernilai negatif,0,0.0,Tinggi,Mutasi nilai menjadi 0 atau koordinasikan dengan tim IT akademik
+Akurasi,Curricular units 1st sem (approved/enrolled),SKS lulus (approved) melebihi kapasitas SKS diambil (enrolled),0,0.0,Tinggi,Investigasi apakah ada transfer kredit/SKS konversi yang belum dicatat di kolom credited
